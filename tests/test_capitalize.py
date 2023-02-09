@@ -1,7 +1,7 @@
-from capitalize import capitalize
+from testo.capitalize import capitalize
 
-assert capitalize('hello') == 'Hello'
+def test_capitalize_basic():
+    assert capitalize('hello') == 'Hello'
 
-assert capitalize('') == ''
-
-print('Все тесты пройдены!')
+def test_capitalize_pogran():
+    assert capitalize('') == ''
