@@ -1,3 +1,6 @@
+'''funny module'''
+
+
 def capitalize(text):
     '''funny function'''
     if text == '':
